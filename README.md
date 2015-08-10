@@ -1,4 +1,4 @@
-Bind
+Docker-Elasticsearch
 ===
 Docker images for the elasticsearch.
 
