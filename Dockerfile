@@ -6,7 +6,8 @@ MAINTAINER Baohua Yang
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN /usr/share/elasticsearch/bin/plugin -install mobz/elasticsearch-head \
-  &&  /usr/share/elasticsearch/bin/plugin -install lukas-vlcek/bigdesk
+RUN /usr/share/elasticsearch/bin/plugin -i mobz/elasticsearch-head \
+  &&  /usr/share/elasticsearch/bin/plugin -i lukas-vlcek/bigdesk \
+  &&  /usr/share/elasticsearch/bin/plugin -i elasticsearch/marvel/latest
 
 COPY ./logstash_netflow.json /tmp/

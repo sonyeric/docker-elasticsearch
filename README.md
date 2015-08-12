@@ -32,7 +32,7 @@ The image is based on official `elasticsearch:1.7`.
 # What has been changed?
 
 ## add useful plugins
-Add the head and the bigdesk plugins.
+Add the [head](https://github.com/mobz/elasticsearch-head), [bigdesk](http://bigdesk.org/), [marvel](https://www.elastic.co/guide/en/marvel/current/index.html) plugins.
 
 ## add netflow template
 Netflow event from the logstash can be automatically put into the db.
