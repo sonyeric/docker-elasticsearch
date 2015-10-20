@@ -1,7 +1,7 @@
 # This will prepare a elasticsearch with head, bigdesk plugins installed.
 # A logstash_netflow- started index will be parsed.
 
-FROM elasticsearch:1.7
+FROM elasticsearch:2.0
 MAINTAINER Baohua Yang
 
 ENV DEBIAN_FRONTEND noninteractive
