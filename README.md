@@ -5,6 +5,8 @@ Docker images for the elasticsearch.
 
 # Supported tags and respective Dockerfile links
 
+* [`2.0` (latest/Dockerfile)](https://github.com/yeasy/docker-elasticsearch/blob/2.0/Dockerfile)
+* [`1.7` (latest/Dockerfile)](https://github.com/yeasy/docker-elasticsearch/blob/1.7/Dockerfile)
 * [`latest` (latest/Dockerfile)](https://github.com/yeasy/docker-elasticsearch/blob/master/Dockerfile)
 
 For more information about this image and its history, please see the relevant manifest file in the [`yeasy/docker-elasticsearch` GitHub repo](https://github.com/yeasy/docker-elasticsearch).
