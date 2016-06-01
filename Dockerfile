@@ -9,6 +9,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN /usr/share/elasticsearch/bin/plugin install mobz/elasticsearch-head \
   &&  /usr/share/elasticsearch/bin/plugin install lukas-vlcek/bigdesk \
-  &&  /usr/share/elasticsearch/bin/plugin install elasticsearch/marvel/latest
+  &&  /usr/share/elasticsearch/bin/plugin install license \
+  &&  /usr/share/elasticsearch/bin/plugin install -b marvel-agent
 
 COPY ./logstash_netflow.json /tmp/
