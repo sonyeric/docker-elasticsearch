@@ -2,7 +2,7 @@
 # See http://localhost:9200/_plugin/head/ and http://localhost:9200/_plugin/bigdesk/ after booted.
 # A logstash_netflow- started index will be parsed according to the logstash_netflow.json.
 
-FROM elasticsearch:2.0
+FROM elasticsearch:2.3
 MAINTAINER Baohua Yang
 
 ENV DEBIAN_FRONTEND noninteractive
